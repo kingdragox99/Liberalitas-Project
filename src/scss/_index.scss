@@ -1,0 +1,19 @@
+@import "_reset.scss";
+@import "_var.scss";
+@import "_mixin.scss";
+@import "_fonts.scss";
+
+//Header
+
+.header_h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  
+  // Main
+  
+  .main_map {
+      height: 800px;
+      width: 100%;
+    }
