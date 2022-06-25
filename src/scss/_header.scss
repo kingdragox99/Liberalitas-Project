@@ -1,0 +1,48 @@
+@import "_reset.scss";
+@import "_var.scss";
+@import "_mixin.scss";
+@import "_fonts.scss";
+.manager_header_h1{
+    top:50px;
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #b17d70;
+    margin-top: 20px;
+  }
+.divVide{
+    width: auto;
+    height: auto;
+}
+.header-div{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    visibility: visible;
+    background-color: $pastel;
+    flex-wrap: wrap;
+
+}
+.img_iles{
+    background-image: url(../img/index.png);
+    display: flex;
+    width   :120px;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.NavBar{
+    flex-wrap: wrap;
+
+}
+
