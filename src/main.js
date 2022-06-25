@@ -1,17 +1,21 @@
-// Initialize and add the map
-function initMap() {
-    // The location of Uluru
-    const uluru = { lat: -25.344, lng: 131.031 };
-    // The map, centered at Uluru
+  const bruxelles = { lat: 50.833962, lng: 4.437884 };
+  const liege = { lat: 50.632992, lng: 5.567669 };
+  var villeArray = [liege,bruxelles];
+
+  const marker = () =>{
+
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 4,
-      center: uluru,
+      zoom: 10,
+      center: liege,
     });
-    // The marker, positioned at Uluru
-    const marker = new google.maps.Marker({
-      position: uluru,
+
+    for(let i = 0; i < villeArray.length;i++){
+      new google.maps.Marker({
+      position: villeArray[i],
       map: map,
-    });
+
+      });
+    }
   }
   
-  window.initMap = initMap;
+  window.initMap = marker;

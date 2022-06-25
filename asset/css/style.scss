@@ -1,7 +1,12 @@
-/* Set the size of the div element that contains the map */
-#map {
-    height: 400px;
-    /* The height is 400 pixels */
+//Header
+
+.header_h1{
+  margin: 0 auto;
+}
+
+// Main
+
+.main_map {
+    height: 800px;
     width: 100%;
-    /* The width is the width of the web page */
   }
